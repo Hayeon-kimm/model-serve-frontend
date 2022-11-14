@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@components/*": ["./components/*"],
+            "@images/*": ["./images/*"],
+            "@modules/*": ["./modules/*"],
+            "@hooks/*": ["./hooks/*"],
+
+            "@constants": ["./utils/constants.ts"],
+            "@images": ["./images/index.ts"]
+        }
+    }
+}
